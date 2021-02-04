@@ -24,10 +24,6 @@
     transform: translate(-50%, -50%);
 }
 
-.carousel-item:nth-child(3) {
-    height: 300px;
-}
-
 .right {
     width: 50%;
     height: 400px;
