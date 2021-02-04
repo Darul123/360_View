@@ -181,12 +181,14 @@
                         <p>
                             Starting at $3,500.00
                         </p>
-                        <button onClick="document.getElementById('modal-wrapper').style.display='block'">
+                        <button onClick="document.getElementById('modal-wrapper').style.display='block';
+                        document.querySelector('body').style.overflow = 'hidden'; ">
                             <font style="font-weight:bold">3D</font> View
                         </button>
                         <div id="modal-wrapper"  class="modal">
                             <div class="center">
-                                <span onClick="document.getElementById('modal-wrapper').style.display='none'" class="close">&times;</span>
+                                <span onClick="document.getElementById('modal-wrapper').style.display='none';
+                                document.querySelector('body').style.overflow = 'visible';" class="close" >&times;</span>
                                 <div class="rotation">
                     
                                     <img src="./asset/image/product-1.png">
@@ -226,12 +228,14 @@
                         <p>
                             Starting at $3,500.00
                         </p>
-                        <button onClick="document.getElementById('modal-wrapper').style.display='block'">
+                        <button onClick="document.getElementById('modal-wrapper').style.display='block';
+                        document.querySelector('body').style.overflow = 'hidden'; ">
                             <font style="font-weight:bold">3D</font> View
                         </button>
                         <div id="modal-wrapper"  class="modal">
                             <div class="center">
-                                <span onClick="document.getElementById('modal-wrapper').style.display='none'" class="close">&times;</span>
+                                <span onClick="document.getElementById('modal-wrapper').style.display='none';
+                                document.querySelector('body').style.overflow = 'visible';" class="close" >&times;</span>
                                 <div class="rotation">
                     
                                     <img src="./asset/image/product-1.png">
